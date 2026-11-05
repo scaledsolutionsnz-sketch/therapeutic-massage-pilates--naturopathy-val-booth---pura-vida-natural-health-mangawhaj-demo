@@ -217,9 +217,14 @@ section{padding:88px 0;position:relative}
 .review footer{display:flex;align-items:center;gap:12px;font-size:.92rem;color:var(--muted)}
 .review footer .mini{width:40px;height:40px;border-radius:50%;background:var(--tint);color:var(--accent-ink);display:grid;place-items:center;font-weight:700;flex:none}
 .review footer strong{color:var(--ink);display:block}
+.reviews-grid.pair{grid-template-columns:1fr 1fr;max-width:1000px;margin:0 auto}
+.review.pair-card{padding:34px 30px 30px}
+.review.pair-card p{font-family:var(--display);font-size:1.7rem;line-height:1.3;display:flex;align-items:center;padding-right:40px}
+.review.pair-card.long p{font-size:1.18rem;line-height:1.5;padding-right:0;padding-top:30px}
 .center-cta{text-align:center;margin-top:40px}
 @media (max-width:1000px){.reviews-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:680px){.reviews-grid{grid-template-columns:1fr}}
+@media (max-width:760px){.reviews-grid.pair{grid-template-columns:1fr}.review.pair-card p{font-size:1.45rem}.review.pair-card.long p{font-size:1.1rem}}
 
 /* ---------- LEAVE A REVIEW ---------- */
 .leave{padding:0 0 88px;background:var(--tint-2)}
