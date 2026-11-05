@@ -221,10 +221,15 @@ section{padding:88px 0;position:relative}
 .review.pair-card{padding:34px 30px 30px}
 .review.pair-card p{font-family:var(--display);font-size:1.7rem;line-height:1.3;display:flex;align-items:center;padding-right:40px}
 .review.pair-card.long p{font-size:1.18rem;line-height:1.5;padding-right:0;padding-top:30px}
+.review.photo-card{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:40px;align-items:center;padding:24px 34px 24px 24px}
+.review.photo-card img{display:block;width:100%;height:auto;border-radius:calc(var(--r-lg) - 8px)}
+.photo-card-body{position:relative;display:flex;flex-direction:column;gap:14px}
+.review.photo-card .quote{right:0;top:0}
+.review.photo-card p{font-family:var(--display);font-size:1.18rem;line-height:1.5;padding-top:44px}
 .center-cta{text-align:center;margin-top:40px}
 @media (max-width:1000px){.reviews-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:680px){.reviews-grid{grid-template-columns:1fr}}
-@media (max-width:760px){.reviews-grid.pair{grid-template-columns:1fr}.review.pair-card p{font-size:1.45rem}.review.pair-card.long p{font-size:1.1rem}}
+@media (max-width:760px){.reviews-grid.pair{grid-template-columns:1fr}.review.pair-card p{font-size:1.45rem}.review.pair-card.long p{font-size:1.1rem}.review.photo-card{grid-template-columns:1fr;gap:22px;padding:20px 20px 30px}.photo-card-body{padding:0 10px}.review.photo-card p{font-size:1.1rem;padding-top:36px}.review.photo-card .quote{right:10px}}
 
 /* ---------- LEAVE A REVIEW ---------- */
 .leave{padding:0 0 88px;background:var(--tint-2)}
