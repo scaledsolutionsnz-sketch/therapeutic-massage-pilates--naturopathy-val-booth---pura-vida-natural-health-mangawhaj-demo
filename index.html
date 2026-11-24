@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="img/hero-1920.webp" imagesrcset="img/hero-1080.webp 1080w, img/hero-1920.webp 1920w, img/hero-3840.webp 3840w" imagesizes="100vw">
+<link rel="preload" as="image" href="img/hero-val-1920.webp" imagesrcset="img/hero-val-1080.webp 810w, img/hero-val-1920.webp 1440w" imagesizes="100vw">
 <script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -53,6 +53,7 @@
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#services">Services</a></li>
+      <li><a href="#prices">Prices</a></li>
       <li><a href="#videos">Videos</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -72,7 +73,7 @@
 <!-- 2. HERO (one permanent mother-and-baby photo, as requested on the v1 demo) -->
 <section class="hero" aria-label="Introduction">
   <div class="hero-slides">
-    <img class="active" src="img/hero-1920.webp" srcset="img/hero-1080.webp 1080w, img/hero-1920.webp 1920w, img/hero-3840.webp 3840w" sizes="100vw" alt="A mother doing a Pilates bridge with her baby held above her" width="1920" height="1004" fetchpriority="high">
+    <img class="active" src="img/hero-val-1920.webp" srcset="img/hero-val-1080.webp 810w, img/hero-val-1920.webp 1440w" sizes="100vw" alt="Val Booth smiling beside a massage table in the treatment room" width="1440" height="1920" fetchpriority="high">
   </div>
   <div class="wrap">
     <span class="eyebrow pop">Mangawhai · Val Booth</span>
@@ -112,6 +113,26 @@
       <article class="svc pop"><div class="img"><img src="img/svc-natur-1920.webp" srcset="img/svc-natur-1080.webp 1080w, img/svc-natur-1920.webp 1920w" sizes="(max-width:640px) 100vw, 25vw" alt="A bottle of herbal tincture and a dropper set out in the garden" width="1920" height="1440" loading="lazy"></div><div class="body"><span class="tag">Naturopathy</span><h3>Herbal medicine</h3><p>A naturopathic consult and natural herbal remedies matched to you.</p></div></article>
       <article class="svc wide pop"><div class="img"><img src="img/svc-nutrition-1920.webp" srcset="img/svc-nutrition-1080.webp 1080w, img/svc-nutrition-1920.webp 1920w" sizes="(max-width:640px) 100vw, 25vw" alt="Fresh pumpkin, tomatoes and fruit on a windowsill" width="1151" height="1920" loading="lazy"></div><div class="body"><span class="tag">Naturopathy</span><h3>Food &amp; lifestyle</h3><p>Practical changes to what you eat and how you live, worked out together so they stick.</p></div></article>
       <article class="svc accent pop"><div class="body"><h3>Not sure where to start?</h3><p>Tell Val what's going on and she'll suggest the right first step.</p><a class="btn btn-dark" href="tel:+64212300293"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call or text Val</a></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- 4b. PRICES -->
+<section id="prices" class="prices">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow pop">Prices</span>
+      <h2 class="pop">Simple, clear pricing</h2>
+      <p class="pop">Call or text Val on 021 230 0293 to book.</p>
+    </div>
+    <div class="price-grid">
+      <article class="price-card pop"><h3>Therapeutic massage</h3><p class="pc-sub">Studio appointments</p><ul><li><span>60 minutes</span><b>$100</b></li><li><span>90 minutes</span><b>$150</b></li><li><span>120 minutes</span><b>$190</b></li></ul>
+        <p class="pc-sub">Additional fees</p><ul><li><span>Mobile massage in Mangawhai</span><b>+$20</b></li><li><span>Public holidays and peak summer season (Christmas through February), studio and mobile</span><b>+$20</b></li></ul>
+        <p class="pc-note">Areas beyond Mangawhai have additional travel fees based on distance. Please contact us for a quote.</p></article>
+      <article class="price-card pop"><h3>Pilates</h3><p class="pc-sub">Mat classes</p><ul><li><span>Starter package (highly recommended): 1 mat private class and 5 mat group classes</span><b>$120</b></li><li><span>Mat private class</span><b>$75 each</b></li><li><span>Mat group class</span><b>$15 each</b></li></ul>
+        <p class="pc-sub">Reformer Pilates</p><ul><li><span>Private</span><b>$90</b></li><li><span>2 people</span><b>$45 each</b></li></ul>
+        <p class="pc-note">Each class is approximately 45 minutes long.</p></article>
+      <article class="price-card pop"><h3>Naturopathic consult</h3><ul><li><span>Initial consultation</span><b>$120</b></li><li><span>Follow up</span><b>$60</b></li></ul></article>
     </div>
   </div>
 </section>
@@ -213,7 +234,7 @@
     <div class="reviews-grid pair">
       <article class="review pair-card pop"><svg class="quote" aria-hidden="true"><use href="#i-quote"/></svg><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>"Fantastic massage, Val knew what my body needed!"</p><footer><span><strong>Honor Lock</strong>Google review</span></footer></article>
       <article class="review pair-card long pop"><svg class="quote" aria-hidden="true"><use href="#i-quote"/></svg><p>"Both Peter and I had regular massages for a period before our hiking trips and during the weeks of training. Val was key to this preparation as she recognised and worked on areas that were restricting movement, strength and overall flexibility. I would definitely repeat this process for similar challenges and recommend Val as a massage therapist."</p><footer><span><strong>Peggyann Colville</strong>Massage client</span></footer></article>
-      <article class="review photo-card pop"><img src="img/review-justin-1920.webp" srcset="img/review-justin-1080.webp 1080w, img/review-justin-1920.webp 1920w" sizes="(max-width:760px) 90vw, 460px" alt="A snowboarder in an orange vest riding through fresh powder in falling snow" width="1920" height="1440" loading="lazy"><div class="photo-card-body"><svg class="quote" aria-hidden="true"><use href="#i-quote"/></svg><p>"Val's massage therapy expertise was invaluable in treating injuries and tension I sustained while doing intense training to prepare for the snowboarding season. The fact that she is a boarder herself definitely helped as well."</p><footer><span><strong>Justin Redding</strong>Massage client</span></footer></div></article>
+      <article class="review photo-card pop"><img src="img/review-justin-1920.webp" srcset="img/review-justin-1080.webp 1080w, img/review-justin-1920.webp 1920w" sizes="(max-width:760px) 90vw, 460px" alt="A snowboarder in an orange vest riding through fresh powder in falling snow" width="1920" height="1440" loading="lazy"><div class="photo-card-body"><svg class="quote" aria-hidden="true"><use href="#i-quote"/></svg><p>"Val's massage therapy expertise was invaluable in treating injuries and tension I sustained while doing intense training to prepare for the snowboarding season. The fact that she is a boarder herself definitely helped as well."</p><footer><span><strong>Justin R</strong>Massage client</span></footer></div></article>
     </div>
     <div class="center-cta pop"><a class="btn btn-soft" href="https://maps.google.com/?cid=2341264105563611470" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-google"/></svg>See our Google reviews</a></div>
   </div>
