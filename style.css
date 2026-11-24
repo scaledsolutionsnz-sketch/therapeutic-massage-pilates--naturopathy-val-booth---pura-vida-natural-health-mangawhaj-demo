@@ -312,3 +312,12 @@ section{padding:88px 0;position:relative}
 .price-card li b{white-space:nowrap;color:var(--green)}
 .price-card .pc-note{color:var(--muted);font-size:.95rem;margin:14px 0 0}
 @media (max-width:760px){.prices{padding:64px 0}}
+
+.product{padding:90px 0;background:#fff}
+.product-grid{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:56px;align-items:center}
+.product-grid img{width:100%;height:auto;border-radius:var(--r-lg);display:block}
+.product h2{font-family:var(--display);color:var(--green);margin:0 0 16px}
+.product ul{margin:0 0 18px;padding-left:20px}
+.product li{margin:6px 0}
+.product .product-tag{color:var(--accent-ink)}
+@media (max-width:760px){.product{padding:64px 0}.product-grid{grid-template-columns:1fr;gap:28px}}
